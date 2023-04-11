@@ -41,7 +41,9 @@
     display: inline-block;
     width: 400px;
     height: 900px;
-    background-color: #2F80ED; 
+    background-color: #2F80ED;  
+    vertical-align: middle;
+
 }
 .btn1{
     height: 60px;
@@ -80,9 +82,11 @@ h3{
     margin-top: 0px;
     background-color: white;
     display: inline-block;
+    vertical-align: middle;
 }
 
-.bare{
+h2{
+    margin-top: 73px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -90,4 +94,41 @@ h3{
     line-height: 54px;
     color: #4F4F4F;
     float: right;
+    width: 561px;
+    display: inline-block;
+}
+.bare{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #4F4F4F;
+    float: left;
+    margin-top: -70px;
+    width: 561px;
+    display: inline-block;
+}
+
+.statisticimg{
+    display: inline-block;
+    height: 607px;
+    width: 951px;
+}
+.bottom-lefttxt {
+    position: relative;
+    left: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    width: 450px;
+    color: #4F4F4F;
+    float: left;
+  }
+.everything{
+    margin:auto;
+    max-width: 1700px;
+    padding-left: auto;
 }
